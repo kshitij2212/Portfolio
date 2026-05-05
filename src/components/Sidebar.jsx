@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion';
-import { FaDribbble, FaTwitter, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaDownload } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 
 const Sidebar = () => {
   return (
     <motion.aside 
       initial={{ opacity: 0, x: -20 }}
       animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.8 }}
       className="bento-card p-8 flex flex-col items-center text-center max-h-[calc(100vh-4rem)] overflow-y-auto custom-scrollbar"
     >
       <div className="w-full aspect-[4/5] overflow-hidden rounded-2xl mb-8 relative">
@@ -23,23 +23,34 @@ const Sidebar = () => {
       <p className="text-sm text-textSecondary mb-8">Pune, India</p>
 
       <div className="flex gap-6 mb-10">
-        <a href="#" className="text-textSecondary hover:text-white transition-colors">
-          <FaDribbble size={20} />
+        <a href="https://github.com/kshitij2212" target="_blank" rel="noopener noreferrer" className="text-textSecondary hover:text-white transition-colors">
+          <FaGithub size={20} />
         </a>
-        <a href="#" className="text-textSecondary hover:text-white transition-colors">
-          <FaTwitter size={20} />
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-textSecondary hover:text-white transition-colors">
+          <FaLinkedin size={20} />
         </a>
-        <a href="#" className="text-textSecondary hover:text-white transition-colors">
-          <FaInstagram size={20} />
-        </a>
-        <a href="#" className="text-textSecondary hover:text-white transition-colors">
-          <FaEnvelope size={20} />
+        <a href="https://leetcode.com/u/KshitijSaxena04/" target="_blank" rel="noopener noreferrer" className="text-textSecondary hover:text-white transition-colors">
+          <SiLeetcode size={20} />
         </a>
       </div>
 
-      <button className="w-full py-4 bg-white text-black font-bold rounded-xl hover:bg-gray-200 transition-colors">
-        Let's Talk
-      </button>
+      <div className="w-full space-y-3 mb-8">
+        <a 
+          href="https://drive.google.com/file/d/1RbYxUOJkim78TPnsB-v6DsHBYpkm-iwW/view?usp=sharing" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 w-full py-3 bg-[#1a1a1a] border border-[#333] text-white text-xs font-bold rounded-xl hover:bg-white hover:text-black transition-all uppercase tracking-widest"
+        >
+          <FaDownload size={14} />
+          View Resume
+        </a>
+        <a 
+          href="#contact" 
+          className="block w-full py-3 bg-white text-black text-xs font-bold rounded-xl hover:bg-gray-200 transition-all uppercase tracking-widest"
+        >
+          Let's Talk
+        </a>
+      </div>
     </motion.aside>
   );
 };
