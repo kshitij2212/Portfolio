@@ -99,6 +99,23 @@ const Projects = () => {
             </div>
           ))}
         </div>
+
+        <motion.div 
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          className="mt-12 flex justify-center"
+        >
+          <a 
+            href="https://github.com/kshitij2212" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 px-8 py-4 bg-[#111] border border-[#222] rounded-2xl text-white font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-black transition-all group"
+          >
+            <FaGithub size={20} className="group-hover:scale-110 transition-transform" />
+            Discover many more on GitHub
+          </a>
+        </motion.div>
       </motion.div>
     </section>
   );
