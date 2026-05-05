@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-textPrimary font-sans antialiased overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .bento-card {
+    @apply bg-surface border border-[#222222] rounded-3xl overflow-hidden transition-all duration-300;
+  }
+  
+  .bento-card:hover {
+    @apply bg-[#151515] border-[#333];
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .custom-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
