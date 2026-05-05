@@ -6,7 +6,7 @@ const expertise = [
     title: 'Backend Dev',
     description: 'Building robust and scalable server-side logic and RESTful APIs using Node.js, Express, and modern databases.',
     icon: <Server className="text-white" />,
-    skills: ['Node.js', 'Express', 'PostgreSQL', 'MongoDB']
+    skills: ['Node.js', 'Express', 'JWT', 'OAuth']
   },
   {
     title: 'Frontend Dev',
@@ -18,13 +18,13 @@ const expertise = [
     title: 'Databases',
     description: 'Expertise in managing and optimizing both SQL and NoSQL databases for high-availability applications.',
     icon: <Database className="text-white" />,
-    skills: ['MongoDB', 'PostgreSQL', 'Redis', 'Firebase']
+    skills: ['MongoDB', 'PostgreSQL', 'SQL']
   },
   {
     title: 'Data Structures',
     description: 'Strong foundation in algorithms and data structures, with a focus on problem-solving and optimization.',
     icon: <Code className="text-white" />,
-    skills: ['C++', 'Python', 'Algorithm Design', 'Complexity Analysis']
+    skills: ['Python', 'Algorithm Design', 'Complexity Analysis']
   }
 ];
 
