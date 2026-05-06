@@ -64,7 +64,7 @@ const Hero = () => {
             className="text-5xl md:text-[8rem] font-black tracking-tighter leading-none mb-0 text-white uppercase"
           />
           <TypingText 
-            text="ENGINEER" 
+            text="DEVELOPER" 
             className="text-5xl md:text-[8rem] font-black tracking-tighter leading-none mb-8 text-[#222] uppercase"
             delay={10}
           />

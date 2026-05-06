@@ -19,7 +19,7 @@ const Sidebar = () => {
       </div>
 
       <h1 className="text-3xl font-bold text-white mb-2 tracking-tight">Kshitij Saxena</h1>
-      <p className="text-sm text-textSecondary mb-1 font-medium">Full Stack Engineer</p>
+      <p className="text-sm text-textSecondary mb-1 font-medium">Full Stack Developer</p>
       <p className="text-sm text-textSecondary mb-8">Pune, India</p>
 
       <div className="flex gap-6 mb-10">
@@ -36,7 +36,7 @@ const Sidebar = () => {
 
       <div className="w-full space-y-3 mb-8">
         <a 
-          href="https://drive.google.com/file/d/1RbYxUOJkim78TPnsB-v6DsHBYpkm-iwW/view?usp=sharing" 
+          href="https://drive.google.com/file/d/1Fh-ogoFdDTahVq95NxwQBLRNEYw7i0zL/view?usp=sharing" 
           target="_blank" 
           rel="noopener noreferrer"
           className="flex items-center justify-center gap-2 w-full py-3 bg-[#1a1a1a] border border-[#333] text-white text-xs font-bold rounded-xl hover:bg-white hover:text-black transition-all uppercase tracking-widest"
