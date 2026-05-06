@@ -27,8 +27,17 @@ const projects = [
     image: '/attendance.png',
     demo: 'https://attendance-manager-pi-blush.vercel.app/',
     code: 'https://github.com/kshitij2212/attendance-manager.git',
-    tags: ['Full-stack', 'HRMS', 'Next.js', 'PostgreSQL'],
+    tags: ['Full-stack', 'HRMS', 'React', 'Mongo DB'],
     objectPosition: 'object-left'
+  },
+  {
+    title: 'ExpenseEasy',
+    description: 'A comprehensive personal finance tracker featuring secure authentication, an interactive dashboard for visual spending analysis, full CRUD operations for daily expenses, and custom category management. Optimized for a seamless experience on all devices.',
+    image: '/expenseease.png',
+    demo: 'https://fj-be-r2-kshitij-saxena-adypu-soii.vercel.app',
+    code: 'https://github.com/kshitij2212/FJ-BE-R2-KshitijSaxena-ADYPU.git',
+    tags: ['React', 'Zustand', 'Tailwind', 'PostgreSQL'],
+    objectPosition: 'object-center'
   }
 ];
 
@@ -52,7 +61,6 @@ const Projects = () => {
         <div className="flex flex-col gap-8">
           {projects.map((project, index) => (
             <div key={index} className="bento-card group flex flex-col lg:flex-row overflow-hidden bg-[#111111] border-[#222] hover:border-[#444] transition-all duration-500 h-auto lg:h-72">
-              {/* Front View (Image) */}
               <div className="w-full lg:w-2/5 h-48 lg:h-full overflow-hidden relative">
                  <img 
                   src={project.image} 
