@@ -40,14 +40,14 @@ const Expertise = () => {
           <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-none mb-0 text-white uppercase">
             MY
           </h1>
-          <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-none mb-12 text-[#222] uppercase">
+          <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-none mb-12 text-[#373737] uppercase">
             EXPERTISE
           </h1>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {expertise.map((item, index) => (
-            <div key={index} className="bento-card p-10 flex flex-col h-full bg-[#111111] border-[#222] hover:border-primary/50 transition-all duration-500">
+            <div key={index} className="bento-card p-10 flex flex-col h-full bg-[#111111] border-[#373737] hover:border-primary/50 transition-all duration-500">
               <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-8 border border-primary/20">
                 {item.icon}
               </div>

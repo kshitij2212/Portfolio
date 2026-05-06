@@ -53,14 +53,14 @@ const Projects = () => {
           <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-none mb-0 text-white uppercase">
             RECENT
           </h1>
-          <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-none mb-12 text-[#222] uppercase">
+          <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-none mb-12 text-[#373737] uppercase">
             PROJECTS
           </h1>
         </div>
         
         <div className="flex flex-col gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="bento-card group flex flex-col lg:flex-row overflow-hidden bg-[#111111] border-[#222] hover:border-[#444] transition-all duration-500 h-auto lg:h-72">
+            <div key={index} className="bento-card group flex flex-col lg:flex-row overflow-hidden bg-[#111111] border-[#373737] hover:border-[#444] transition-all duration-500 h-auto lg:h-72">
               <div className="w-full lg:w-2/5 h-48 lg:h-full overflow-hidden relative">
                  <img 
                   src={project.image} 
@@ -118,7 +118,7 @@ const Projects = () => {
             href="https://github.com/kshitij2212" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="flex items-center gap-3 px-8 py-4 bg-[#111] border border-[#222] rounded-2xl text-white font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-black transition-all group"
+            className="flex items-center gap-3 px-8 py-4 bg-[#111] border border-[#373737] rounded-2xl text-white font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-black transition-all group"
           >
             <FaGithub size={20} className="group-hover:scale-110 transition-transform" />
             Discover many more on GitHub
