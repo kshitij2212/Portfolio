@@ -26,7 +26,7 @@ const Sidebar = () => {
         <a href="https://github.com/kshitij2212" target="_blank" rel="noopener noreferrer" className="text-textSecondary hover:text-white transition-colors">
           <FaGithub size={20} />
         </a>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-textSecondary hover:text-white transition-colors">
+        <a href="https://www.linkedin.com/in/kshitij-saxena-nst/" target="_blank" rel="noopener noreferrer" className="text-textSecondary hover:text-white transition-colors">
           <FaLinkedin size={20} />
         </a>
         <a href="https://leetcode.com/u/KshitijSaxena04/" target="_blank" rel="noopener noreferrer" className="text-textSecondary hover:text-white transition-colors">
